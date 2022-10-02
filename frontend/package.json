@@ -1,0 +1,54 @@
+{
+  "name": "universumquakes",
+  "version": "0.1.0",
+  "private": true,
+  "main": "server.js",
+  "engines": {
+    "npm": "8.1.0",
+    "node": "16.13.0"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.32.6",
+    "@react-three/fiber": "^8.8.7",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.2.1",
+    "react": "^18.2.0",
+    "react-audio-player": "^0.17.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "sass": "^1.55.0",
+    "styled-components": "^5.3.6",
+    "three": "^0.145.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "heroku-postbuild": "npm install",
+    "start": "node server.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "json-loader": "^0.5.7"
+  }
+}

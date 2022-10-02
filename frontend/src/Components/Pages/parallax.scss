@@ -1,0 +1,29 @@
+
+.contentImgContainerCover{
+    margin-left: 80px;
+    margin-bottom: 20px ;
+    margin-top: 50px;
+    float: left;
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+    /* background-color: #000; */
+    z-index: 1;
+}
+
+
+.contentImgContainer{
+    height: 450px;
+    width: 450px;
+
+    border-radius: 50%;
+
+    /* transform: translate(0px, 0px) ; */
+    background-image: url("./img/AS11-40-5942.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+
+    transform: translate(0px, 0px);
+    z-index: -1;
+
+}
