@@ -2,7 +2,7 @@
   "name": "universumquakes",
   "version": "0.1.0",
   "private": true,
-  "main": "server.js",
+  "main": "app.js",
   "engines": {
     "npm": "8.1.0",
     "node": "16.13.0"
