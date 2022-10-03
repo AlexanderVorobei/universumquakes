@@ -24,7 +24,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "heroku-postbuild": "npm run build",
+    "heroku-postbuild": "react-scripts build",
     "start": "node server.js",
     "debug": "react-scripts start",
     "build": "react-scripts build",
