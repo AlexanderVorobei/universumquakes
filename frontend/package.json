@@ -2,7 +2,7 @@
   "name": "universumquakes",
   "version": "0.1.0",
   "private": true,
-  "main": "app.js",
+  "main": "server.js",
   "engines": {
     "npm": "8.1.0",
     "node": "16.13.0"
@@ -25,7 +25,8 @@
   },
   "scripts": {
     "heroku-postbuild": "npm run build",
-    "start": "node app.js",
+    "start": "node server.js",
+    "debug": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
